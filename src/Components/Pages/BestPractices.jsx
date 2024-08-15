@@ -1,9 +1,9 @@
 import React from 'react'
 import image2 from "../Pages/image2.jpg";
-
 const BestPractices = () => {
   return (
     <div>
+       
         <div className='text-center  text-gray-500 font-bold mt-10  text-2xl  '>
             <h1>BEST PRACTICES</h1>
            <h1 className='text-center  text-gray-800 font-bold5 text-5xl  mb-4 font-bold '>5 Creative Uses For QR Codes To Inspire <br></br> Your Next QR Campaign</h1>
@@ -12,24 +12,15 @@ const BestPractices = () => {
         <div className=' mx-44 mt-4'>
             <img src={image2} alt=""/>
         </div>
-        <article className="text-center w-50 text-gray-800 font-bold text-2xl">
-    <p>
-        QR Codes—they've become ingrained in everyday life. Once a novelty, you can now see these 
-        <br /> black-and-white squares on product labels, restaurant menus, billboards, bus stops, and flyers.
-        <br /> Many people use their smartphones to scan QR Codes without a second thought.
-    </p>
-    
-    <p>
-        But don't underestimate their power. QR Codes have forever changed how businesses engage 
-        <br /> with consumers, especially following the pandemic. Many brands continue to push the envelope,
-    </p>
-    
-    <h1>testing new and creative uses for their QR Codes</h1>
-    
-    <p>
-        So unlock your creativity and inspire your marketing with these unique, eye-catching QR Code
-        <br /> campaigns.
-    </p>
+        <article className="text-center w-50  text-gray-800 font-bold text-2xl">
+        <p>QR Codes—they've become ingrained in everyday life. Once a novelty, you can now see these </p>
+        <p> black-and-white squares on product labels, restaurant menus, billboards, bus stops, and flyers</p>
+        <p> Many people use their smartphones to scan QR Codes without a second thought.</p>
+        <p> But don't underestimate their power. QR Codes have forever changed how businesses engage</p> 
+         <p> with consumers, especially following the pandemic. Many brands continue to push the envelope,</p>
+         <p>testing new and creative uses for their QR Codes</p>
+         <p>So unlock your creativity and inspire your marketing with these unique, eye-catching QR Code</p>
+        <p> campaigns</p>
 </article>
 <div className="flex text-centerflex justify-center pl-10 pr-40 w-full   ml-20 rounded-lg items-center mt-20">
 <table className="border border-gray-300 rounded-lg shadow-md w-2/3">
@@ -70,12 +61,12 @@ const BestPractices = () => {
 <div className=' italic text-center  text-gray-800 font-bold1 text-2xl  mb-4 mt-10 font-bold'>
     <h1>(Note: All brands discussed in this article were found during our online research.)</h1>
 </div>
-<div className='  text-center  text-gray-800 font-bold1 text-4xl  mr-7 mb-4 mt-3 font-bold'>
+<div className='  text-center  text-gray-800 font-bold1 text-4xl  mr-40 mb-4 mt-3 font-bold'>
     <h1>#1: Coca-Cola creates scannable QR Codes <br></br></h1>
     <h1 className='mr-[530px]'> with Art</h1>
 
 </div>
-<article className='text-center justify-center  text-md text-slate-500 font-semibold ml-3'>
+<article className='text-center justify-center   text-md text-slate-500 font-semibold mr-40'>
     <p>When Coca-Cola launched its global music platform, Coke Studio, the brand wanted to make a big</p>
     <p className='ml-1'>splash. They knew their go-to  <span className='   text-blue-500 hover:text-slate-400   underline hover:underline'>product marketing QR Codes </span> wouldn't cut it, so they teamed up with</p>
     <span className='mr-[430px]'>creative technologist and artist Troy Ni.</span>
@@ -114,7 +105,7 @@ const BestPractices = () => {
 <div className=' ml-96  text-gray-800 font-bold1 text-3xl  mb-4 mt-10 font-bold'>
     <h1>The type of QR Code you need for this:  </h1>
 </div>
-<div className="">
+<div className=" mr-40">
 <article className='text-center justify-center  text-md text-slate-500 font-semibold '>
     <p className="mr-3">Coca-Cola is one of a handful of brands using AI-powered, illustrative QR Codes for their digital</p>
     <p className='mr-[100px]'>  marketing campaigns. For this campaign, Coke likely used a Dynamic URL QR Code.</p>

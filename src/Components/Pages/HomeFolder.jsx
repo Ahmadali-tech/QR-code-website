@@ -1,6 +1,5 @@
 import React from 'react'
-
- import {Link } from 'react-router-dom';
+import {Link } from 'react-router-dom';
 import image2 from '../Pages/image2.jpg';
 import image3 from '../Pages/image3.jpg';
 import image4 from '../Pages/image4.jpg';
@@ -10,195 +9,253 @@ import image7 from '../Pages/image7.jpg';
 import image8 from '../Pages/image8.jpg';
 import image9 from '../Pages/image9.jpg';
 import image10 from '../Pages/image10.jpg';
-import Home from './Home';
- const HomeFolder = () => {
+const HomeFolder = () => {
   return (
     <div>
-        <Home/>
-    <div className="flex items-center mt-16 ml-32 w-full px-6">
-  <div className="flex-shrink-0 w-auto">
-    <img src={image2} alt="" className="w-[400px] h-64 object-cover" />
+ <div className="flex flex-col md:flex-row  lg:ml-32 items-center mt-16 px-6 hover:bg-slate-100 w-full">
+  <div className="flex-shrink-0 mb-4 md:mb-0 md:w-[400px] w-full">
+    <img src={image2} alt="" className="w-full h-64 object-cover" />
   </div>
-  <div className="flex flex-col justify-center w-full px-4">
-    <div className="flex items-center mb-2">
-      <h1 className="text-slate-200 rounded-lg font-bold w-32 px-3 pt-3 pb-2">BESTPRACTICES.</h1>
-      <h1 className="ml-6 font-bold1 text-slate-200 mt-1 font-semibold">Aug 07, 2024</h1>
+  <div className="flex flex-col justify-center w-full md:px-4">
+    <div className="flex flex-col md:flex-row items-start md:items-center mb-4">
+      <h1 className="text-slate-200 rounded-lg   font-bold px-3 pt-3 pb-2 text-center md:text-left w-full md:w-32">
+        BESTPRACTICES.
+      </h1>
+      <h1 className="mt-2 md:mt-0 md:ml-16 ml-40 font-bold text-slate-200 font-semibold text-center md:text-left">
+        Aug 07, 2024
+      </h1>
     </div>
-    <p className="font-bold text-3xl text-sky-950 mt-2">
-      5 Creative Ways to Use QR Codes to Inspire Your Next <br></br> QR Campaign
+    <p className="font-bold text-2xl md:text-3xl text-sky-950 mt-2 text-center md:text-left">
+      5 Creative Ways to Use QR Codes to Inspire Your Next <br /> QR Campaign
     </p>
-    <div className="text-slate-500 text-xl mt-2 font-bold">
+    <div className="text-slate-500 text-lg md:text-xl mt-2 font-bold text-center md:text-left">
       Get Inspired by Five Real-World Examples of Creative QR Codes
     </div>
-    <Link to ="/BestPractice">
-    <div className="mt-5 text-sky-500 hover:text-blue-600 text-xl font-semibold underline">
-      READ MORE
-    </div>
+    <Link to="/BestPractice">
+      <div className="mt-5 text-sky-500 hover:text-blue-600 text-lg md:text-xl font-semibold underline text-center md:text-left">
+        READ MORE
+      </div>
     </Link>
   </div>
 </div>
-<div className="flex items-center mt-16 ml-32 w-full px-6">
-  <div className="flex-shrink-0 w-auto">
-    <img src={image3} alt="" className="w-[400px] h-64 object-cover" />
+
+<div className="flex flex-col md:flex-row lg:ml-32 items-center mt-16 px-6 hover:bg-slate-100 w-full">
+  <div className="flex-shrink-0 mb-4 md:mb-0 w-full md:w-[400px]">
+    <img src={image3} alt="Industry Trends" className="w-full h-64 object-cover" />
   </div>
   <div className="flex flex-col justify-center w-full px-4">
-    <div className="flex items-center mb-2">
-      <h1 className="text-slate-300 rounded-lg font-bold w-30 px-3 pt-3 pb-2">INDUSTRY TRENDS.</h1>
-      <h1 className=" font-bold1 text-slate-300 mt-1 ">Aug 05, 2024</h1>
+  <div className="flex flex-col md:flex-row items-start md:items-center mb-4">
+      <h1 className="text-slate-200 rounded-lg   font-bold px-3 pt-3 pb-2 text-center md:text-left w-full md:w-32">
+        BESTPRACTICES.
+      </h1>
+      <h1 className="mt-2 md:mt-0 md:ml-16 ml-40 font-bold text-slate-200 font-semibold text-center md:text-left">
+        Aug 30, 2024
+      </h1>
     </div>
-    <p className="font-bold text-3xl text-sky-950 mt-2">
-     Are QR Code Dead ? Evrything Is Need To Know  <br></br> About QR Code in 2024?
+    <p className="font-bold text-2xl md:text-3xl text-sky-950 mt-2 text-center md:text-left">
+      Are QR Codes Dead? Everything You Need to Know <br /> About QR Codes in 2024
     </p>
-    <div className="text-slate-500 text-xl mt-2 font-bold">
-     Learn Why QR Code are Valuable For Marketers,teachers,and  other!
+    <div className="text-slate-500 text-lg md:text-xl mt-2 font-bold text-center md:text-left">
+      Learn Why QR Codes are Valuable for Marketers, Teachers, and Others!
     </div>
-    <div className="mt-5 text-sky-500 hover:text-blue-600 text-xl font-semibold underline">
-      READ MORE
-    </div>
+    <Link to="/BestPractice">
+      <div className="mt-5 text-sky-500 hover:text-blue-600 text-lg md:text-xl font-semibold underline text-center md:text-left">
+        READ MORE
+      </div>
+    </Link>
   </div>
 </div>
-<div className="flex items-center mt-16 ml-32 w-full px-6">
-  <div className="flex-shrink-0 w-auto">
-    <img src={image4} alt="" className="w-[400px] h-64 object-cover" />
+
+
+<div className="flex flex-col md:flex-row lg:ml-32 items-center mt-16 px-6 hover:bg-slate-100 w-full">
+  <div className="flex-shrink-0 mb-4 md:mb-0 w-full md:w-[400px]">
+    <img src={image4} alt="" className="w-full h-64 object-cover" />
   </div>
   <div className="flex flex-col justify-center w-full px-4">
-    <div className="flex items-center mb-2">
-    <h1 className="text-slate-300 rounded-lg font-bold w-30 px-3 pt-3 pb-2">INDUSTRY TRENDS.</h1>
-      <h1 className=" font-bold1 text-slate-300 mt-1 ">Aug 05, 2024</h1>
+  <div className="flex flex-col md:flex-row items-start md:items-center mb-4">
+      <h1 className="text-slate-200 rounded-lg   font-bold px-3 pt-3 pb-2 text-center md:text-left w-full md:w-32">
+        INDUSTRYTREND
+      </h1>
+      <h1 className="mt-2 md:mt-0 md:ml-16 ml-40 font-bold text-slate-200 font-semibold text-center md:text-left">
+      JULY 31, 2024
+      </h1>
     </div>
-    <p className="font-bold text-3xl text-sky-950 mt-2">
-      4 Reasons QR CODE Are the only The Contactless <br></br> Solution  Restuarants Need
+    <p className="font-bold text-2xl md:text-3xl text-sky-950 mt-2 text-center md:text-left">
+      4 Reasons QR Codes Are the Only Contactless <br /> Solution Restaurants Need
     </p>
-    <div className="text-slate-500 text-xl mt-2 font-bold">
-     Learn How to use QR Code to create Contactless dining Experience
+    <div className="text-slate-500 text-lg md:text-xl mt-2 font-bold text-center md:text-left">
+      Learn How to Use QR Codes to Create a Contactless Dining Experience
     </div>
-    <div className="mt-5 text-sky-500 hover:text-blue-600 text-xl font-semibold underline">
-      READ MORE
-    </div>
+    <Link to="/BestPractice">
+      <div className="mt-5 text-sky-500 hover:text-blue-600 text-lg md:text-xl font-semibold underline text-center md:text-left">
+        READ MORE
+      </div>
+    </Link>
   </div>
 </div>
-<div className="flex items-center mt-16 ml-32 w-full px-6">
-  <div className="flex-shrink-0 w-auto">
-    <img src={image5} alt="" className="w-[400px] h-64 object-cover" />
+
+<div className="flex flex-col md:flex-row  lg:ml-32 items-center mt-16 px-6 hover:bg-slate-100 w-full">
+  <div className="flex-shrink-0 mb-4 md:mb-0 w-full md:w-[400px]">
+    <img src={image5} alt="" className="w-full h-64 object-cover" />
   </div>
   <div className="flex flex-col justify-center w-full px-4">
-    <div className="flex items-center mb-2">
-    <h1 className="text-slate-200 rounded-lg font-bold w-32 px-3 pt-3 pb-2">BESTPRACTICES.</h1>
-      <h1 className="ml-6 font-bold1 text-slate-200 mt-1 font-semibold">Aug 01,2024</h1>
+  <div className="flex flex-col md:flex-row items-start md:items-center mb-4">
+      <h1 className="text-slate-200 rounded-lg   font-bold px-3 pt-3 pb-2 text-center md:text-left w-full md:w-32">
+        BESTPRACTICES.
+      </h1>
+      <h1 className="mt-2 md:mt-0 md:ml-16 ml-40 font-bold text-slate-200 font-semibold text-center md:text-left">
+        JULY 10, 2024
+      </h1>
     </div>
-    <p className="font-bold text-3xl text-sky-950 mt-2">
-     A Quick Start Guide To Using  QR Codes For  <br></br>AudioBooks
+    <p className="font-bold text-2xl md:text-3xl   text-sky-950 mt-2 text-center md:text-left">
+      A Quick Start Guide To Using QR Codes For <br /> AudioBooks
     </p>
-    <div className="text-slate-500 text-xl mt-2 font-bold">
-    Learn How and Why you should used QR code to Promote the audioBooks
+    <div className="text-slate-500 text-lg md:text-xl mt-2 font-bold text-center md:text-left">
+      Learn How and Why You Should Use QR Codes to Promote AudioBooks
     </div>
-    <div className="mt-5 text-sky-500 hover:text-blue-600 text-xl font-semibold underline">
-      READ MORE
-    </div>
+    <Link to="/BestPractice">
+      <div className="mt-5 text-sky-500 hover:text-blue-600 text-lg md:text-xl font-semibold underline text-center md:text-left">
+        READ MORE
+      </div>
+    </Link>
   </div>
 </div>
-<div className="flex items-center mt-16 ml-32 w-full px-6">
-  <div className="flex-shrink-0 w-auto">
-    <img src={image8} alt="" className="w-[400px] h-64 object-cover" />
+
+<div className="flex flex-col md:flex-row items-center  lg:ml-32 mt-16 px-6 hover:bg-slate-100 w-full">
+  <div className="flex-shrink-0 mb-4 md:mb-0 w-full md:w-[400px]">
+    <img src={image8} alt="" className="w-full h-64 object-cover" />
   </div>
   <div className="flex flex-col justify-center w-full px-4">
-    <div className="flex items-center mb-2">
-    <h1 className="text-slate-200 rounded-lg font-bold w-32 px-3 pt-3 pb-2">BESTPRACTICES.</h1>
-      <h1 className="ml-6 font-bold1 text-slate-200 mt-1 font-semibold">July31,2024</h1>
+  <div className="flex flex-col md:flex-row items-start md:items-center mb-4">
+      <h1 className="text-slate-200 rounded-lg   font-bold px-3 pt-3 pb-2 text-center md:text-left w-full md:w-32">
+        BESTPRACTICES.
+      </h1>
+      <h1 className="mt-2 md:mt-0 md:ml-16 ml-40 font-bold text-slate-200 font-semibold text-center md:text-left">
+        JULY 10, 2024
+      </h1>
     </div>
-    <p className="font-bold text-3xl text-sky-950 mt-2">
-     QR Codes For The Digital Display: A Guide to Engaging  <br></br>Signage
+    <p className="font-bold text-2xl md:text-3xl text-sky-950 mt-2 text-center md:text-left">
+      QR Codes For The Digital Display: A Guide to Engaging <br /> Signage
     </p>
-    <div className="text-slate-500 text-xl mt-2 font-bold">
-      Leran How the QR Code enhanced digital displays by making them more dynamic.
+    <div className="text-slate-500 text-lg md:text-xl mt-2 font-bold text-center md:text-left">
+      Learn How QR Codes Enhance Digital Displays by Making Them More Dynamic
     </div>
-    <div className="mt-5 text-sky-500 hover:text-blue-600 text-xl font-semibold underline">
-      READ MORE
-    </div>
+    <Link to="/BestPractice">
+      <div className="mt-5 text-sky-500 hover:text-blue-600 text-lg md:text-xl font-semibold underline text-center md:text-left">
+        READ MORE
+      </div>
+    </Link>
   </div>
 </div>
-<div className="flex items-center mt-16 ml-32 w-full px-6">
-  <div className="flex-shrink-0 w-auto">
-    <img src={image7} alt="" className="w-[400px] h-64 object-cover" />
+
+<div className="flex flex-col md:flex-row  lg:ml-32 items-center mt-16 px-6 hover:bg-slate-100 w-full">
+  <div className="flex-shrink-0 mb-4 md:mb-0 w-full md:w-[400px]">
+    <img src={image7} alt="" className="w-full h-64 object-cover" />
   </div>
   <div className="flex flex-col justify-center w-full px-4">
-    <div className="flex items-center mb-2">
-    <h1 className="text-slate-200 rounded-lg font-bold w-32 px-3 pt-3 pb-2">BESTPRACTICES.</h1>
-      <h1 className="ml-6 font-bold1 text-slate-200 mt-1 font-semibold">July30,2024</h1>
+  <div className="flex flex-col md:flex-row items-start md:items-center mb-4">
+      <h1 className="text-slate-200 rounded-lg   font-bold px-3 pt-3 pb-2 text-center md:text-left w-full md:w-32">
+        BESTPRACTICES.
+      </h1>
+      <h1 className="mt-2 md:mt-0 md:ml-16 ml-40 font-bold text-slate-200 font-semibold text-center md:text-left">
+        JULY 10, 2024
+      </h1>
     </div>
-    <p className="font-bold text-3xl text-sky-950 mt-2">
-     Everything you need to Know About QR Codes For  <br></br>Augmented Reality
+    <p className="font-bold text-2xl md:text-3xl text-sky-950 mt-2 text-center md:text-left">
+      Everything You Need to Know About QR Codes For <br /> Augmented Reality
     </p>
-    <div className="text-slate-500 text-xl mt-2 font-bold">
-    Create Annovative experience and drive engagement with QR Code  for Augmented <br></br> Reality
+    <div className="text-slate-500 text-lg md:text-xl mt-2 font-bold text-center md:text-left">
+      Create Innovative Experiences and Drive Engagement with QR Codes for Augmented <br /> Reality
     </div>
-    <div className="mt-5 text-sky-500 hover:text-blue-600 text-xl font-semibold underline">
-      READ MORE
-    </div>
+    <Link to="/BestPractice">
+      <div className="mt-5 text-sky-500 hover:text-blue-600 text-lg md:text-xl font-semibold underline text-center md:text-left">
+        READ MORE
+      </div>
+    </Link>
   </div>
-  
 </div>
-<div className="flex items-center mt-16 ml-32 w-full px-6">
-  <div className="flex-shrink-0 w-auto">
-    <img src={image6} alt="" className="w-[400px] h-64 object-cover" />
+
+<div className="flex flex-col md:flex-row lg:ml-32  items-center mt-16 px-6 hover:bg-slate-100 w-full">
+  <div className="flex-shrink-0 mb-4 md:mb-0 w-full md:w-[400px]">
+    <img src={image6} alt="" className="w-full h-64 object-cover" />
   </div>
   <div className="flex flex-col justify-center w-full px-4">
-    <div className="flex items-center mb-2">
-      <h1 className="text-slate-200 rounded-lg font-bold w-32 px-3 pt-3 pb-2">BESTPRACTICES.</h1>
-      <h1 className="ml-6 font-bold text-slate-200 mt-3 font-semibold">July 30, 2024</h1>
+  <div className="flex flex-col md:flex-row items-start md:items-center mb-4">
+      <h1 className="text-slate-200 rounded-lg   font-bold px-3 pt-3 pb-2 text-center md:text-left w-full md:w-32">
+        BESTPRACTICES.
+      </h1>
+      <h1 className="mt-2 md:mt-0 md:ml-16 ml-40 font-bold text-slate-200 font-semibold text-center md:text-left">
+        JULY 10, 2024
+      </h1>
     </div>
-    <p className="font-bold text-3xl text-sky-950 mt-2">
-      5 Need QR Codes Design Ideas do you can try</p>
-    <div className="text-slate-500 text-xl mt-2 font-bold">
-      Learn How to create the QR Code designs.
-    </div>
-    <div className="mt-5 text-sky-500 hover:text-blue-600 text-xl font-semibold underline">
-      READ MORE
-    </div>
-  </div>
-  
-</div>
-<div className="flex items-center mt-16 ml-32 w-full px-6">
-  <div className="flex-shrink-0 w-auto">
-    <img src={image9} alt="" className="w-[400px] h-64 object-cover" />
-  </div>
-  <div className="flex flex-col justify-center w-full px-4">
-    <div className="flex items-center mb-2">
-      <h1 className="text-slate-200 rounded-lg font-bold w-32 px-3 pt-3 pb-2">BESTPRACTICES.</h1>
-      <h1 className="ml-6 font-bold text-slate-200 mt-3 font-semibold">July29, 2024</h1>
-    </div>
-    <p className="font-bold text-3xl text-sky-950 mt-2">
-    QR Codes for Donations: A Guide to Driving Donations for Nonprofits.
+    <p className="font-bold text-2xl md:text-3xl text-sky-950 mt-2 text-center md:text-left">
+      5 QR Code Design Ideas You Can Try
     </p>
-    <div className="text-slate-500 text-xl mt-2 font-bold">
-     Learn Why QR Code are the best for tool donation
+    <div className="text-slate-500 text-lg md:text-xl mt-2 font-bold text-center md:text-left">
+      Learn How to Create Innovative QR Code Designs
     </div>
-    <div className="mt-5 text-sky-500 hover:text-blue-600 text-xl font-semibold underline">
-      READ MORE
-    </div>
+    <Link to="/BestPractice">
+      <div className="mt-5 text-sky-500 hover:text-blue-600 text-lg md:text-xl font-semibold underline text-center md:text-left">
+        READ MORE
+      </div>
+    </Link>
   </div>
-  
 </div>
-<div className="flex items-center mt-16 ml-32 w-full px-6">
-  <div className="flex-shrink-0 w-auto">
-    <img src={image10} alt="" className="w-[400px] h-64 object-cover" />
+
+<div className="flex flex-col md:flex-row  lg:ml-32 items-center mt-16 px-6 hover:bg-slate-100 w-full">
+  <div className="flex-shrink-0 mb-4 md:mb-0 w-full md:w-[400px]">
+    <img src={image9} alt="" className="w-full h-64 object-cover" />
   </div>
   <div className="flex flex-col justify-center w-full px-4">
-    <div className="flex items-center mb-2">
-      <h1 className="text-slate-200 rounded-lg font-bold w-32 px-3 pt-3 pb-2">BESTPRACTICES.</h1>
-      <h1 className="ml-6 font-bold text-slate-200 mt-3 font-semibold">July29, 2024</h1>
+  <div className="flex flex-col md:flex-row items-start md:items-center mb-4">
+      <h1 className="text-slate-200 rounded-lg   font-bold px-3 pt-3 pb-2 text-center md:text-left w-full md:w-32">
+        BESTPRACTICES.
+      </h1>
+      <h1 className="mt-2 md:mt-0 md:ml-16 ml-40 font-bold text-slate-200 font-semibold text-center md:text-left">
+        JULY 30, 2024
+      </h1>
     </div>
-    <p className="font-bold text-3xl text-sky-950 mt-2">
-    QR Codes for Donations: A Guide to Driving  <br></br>Donations for Nonprofits</p>
-    <div className="text-slate-500 text-xl mt-2 font-bold">
-    Learn and How QR Code are taking over the jwelery industry,
+    <p className="font-bold text-2xl md:text-3xl text-sky-950 mt-2 text-center md:text-left">
+      QR Codes for Donations: A Guide to Driving <br /> Donations for Nonprofits
+    </p>
+    <div className="text-slate-500 text-lg md:text-xl mt-2 font-bold text-center md:text-left">
+      Learn Why QR Codes Are the Best Tool for Donations
     </div>
-    <div className="mt-5 text-sky-500 hover:text-blue-600 text-xl font-semibold underline">
-      READ MORE
-    </div>
+    <Link to="/BestPractice">
+      <div className="mt-5 text-sky-500 hover:text-blue-600 text-lg md:text-xl font-semibold underline text-center md:text-left">
+        READ MORE
+      </div>
+    </Link>
   </div>
-  
 </div>
+
+<div className="flex flex-col md:flex-row  lg:ml-32 items-center mt-16 px-6 hover:bg-slate-100 w-full">
+  <div className="flex-shrink-0 mb-4 md:mb-0 w-full md:w-[400px]">
+    <img src={image10} alt="" className="w-full h-64 object-cover" />
+  </div>
+  <div className="flex flex-col justify-center w-full px-4">
+  <div className="flex flex-col md:flex-row items-start md:items-center mb-4">
+      <h1 className="text-slate-200 rounded-lg   font-bold px-3 pt-3 pb-2 text-center md:text-left w-full md:w-32">
+        BESTPRACTICES.
+      </h1>
+      <h1 className="mt-2 md:mt-0 md:ml-16 ml-40 font-bold text-slate-200 font-semibold text-center md:text-left">
+        JULY 31, 2024
+      </h1>
+    </div>
+    <p className="font-bold text-2xl md:text-3xl text-sky-950 mt-2 text-center md:text-left">
+      5 Sparkling Examples of QR Code <br /> Jewelry (+ Tips to Recreate Them)
+    </p>
+    <div className="text-slate-500 text-lg md:text-xl mt-2 font-bold text-center md:text-left">
+      Learn How QR Codes Are Taking Over the Jewelry Industry
+    </div>
+    <Link to="/BestPractice">
+      <div className="mt-5 text-sky-500 hover:text-blue-600 text-lg md:text-xl font-semibold underline text-center md:text-left">
+        READ MORE
+      </div>
+    </Link>
+  </div>
+</div>
+
 
 
       
